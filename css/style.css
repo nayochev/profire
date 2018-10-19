@@ -1,0 +1,26 @@
+html {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+	background-color: #008080;
+	text-align: center; 
+}
+
+.nav ul {
+	text-align: center;
+}
+
+.nav ul li {
+	display: inline;
+}
+
+#profimg{
+	position: absolute;
+	left: 330px;
+}
+
+.aboutme {
+	display: none;
+}
