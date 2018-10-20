@@ -1,5 +1,8 @@
-const $photo = $('.photo');
-
-$photo.click(function(){
-    $(this).find('.eventimg').fadeIn();
+$('.eventbutton').click(function(){
+    const $img = $(this).next();
+    if($img.css('display') == 'none'){
+        $img.css("display","block");
+    }else{
+        $img.css("display","none");
+    }
 });
